@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useInterval } from "./components/Interval";
-import { Header, Segment, Icon, Container } from "semantic-ui-react";
+import { Header, Container } from "semantic-ui-react";
 import SetTime from "./components/SetTime";
 import Timer from "./components/Timer";
 import Controls from "./components/Controls";
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-      <Container className="Container" inverted color="red">
+      <Container className="Container" inverted="true" color="red">
         <Header
           textAlign="center"
           as="h1"
